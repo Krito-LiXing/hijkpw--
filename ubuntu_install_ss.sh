@@ -15,7 +15,7 @@ V6_PROXY=""
 IP=`curl -sL -4 ip.sb`
 if [[ "$?" != "0" ]]; then
     IP=`curl -sL -6 ip.sb`
-    V6_PROXY="https://gh.hijk.art/"
+    V6_PROXY="https://pigm.pigm.workers.dev/-----/"
 fi
 
 CONFIG_FILE="/etc/shadowsocks-libev/config.json"
