@@ -1,6 +1,5 @@
 #!/bin/bash
 # v2ray一键安装脚本
-# Author: hijk<https://hijk.art>
 
 
 RED="\033[31m"      # Error message
