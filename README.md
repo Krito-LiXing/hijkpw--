@@ -31,6 +31,13 @@ V2ray多合一脚本，支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+
 
 [Xray一键脚本](https://v2raytech.com/xray-one-click-script/)
 
+魔改BBR加速脚本
+```
+wget -N --no-check-certificate "https://github.com/Krito-LiXIng/BBR/blob/c461bc9035ab0945c69fae2c5c8b3306b127d013/tcp.sh"
+chmod +x tcp.sh
+./tcp.sh
+```
+
 # 客户端配置教程
 
 ## SS
