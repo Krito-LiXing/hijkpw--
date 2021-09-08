@@ -272,7 +272,7 @@ configNeedNginx () {
             CERT_FILE = " /etc/v2ray/ ${DOMAIN} .pem "
             KEY_FILE= " /etc/v2ray/ ${DOMAIN} .key "
         别的
-            resolve= ` curl -sL https://hijk.art/hostip.php ？d= ${域} `
+            resolve=`dig ${DOMAIN} +short`
             res= ` echo -n ${resolve}  | grep ${IP} `
             如果[[ -z  " ${res} " ]] ;  然后
                 colorEcho ${BLUE}   " ${DOMAIN}解析结果：${resolve} "
@@ -415,7 +415,7 @@ configNeedNginx () {
                     索引= ` shuf -i0- ${len} -n1 `
                     PROXY_URL= ${SITES[$index]}
                     host= ` echo ${PROXY_URL}  | cut -d/ -f3 `
-                    ip= ` curl -sL https://hijk.art/hostip.php ？d= ${host} `
+                    ip=`dig ${host} +short`
                     res= ` echo -n ${ip}  | grep ${host} `
                     如果[[ " ${res} "  =  " " ]] ;  然后
                         echo  " $ip  $host "  >> /etc/hosts
@@ -487,7 +487,7 @@ module_hotfixes=true '  > /etc/yum.repos.d/nginx.repo
         菲
         $CMD_INSTALL nginx
         如果[[ “ $? ”  !=  “ 0 ” ]] ;  然后
-            colorEcho $RED  " Nginx 安装失败，请到 https://hijk.art 反馈"
+            colorEcho $RED  " Nginx 安装失败，请到  反馈"
             出口1
         菲
         systemctl启用nginx
@@ -552,7 +552,7 @@ module_hotfixes=true '  > /etc/yum.repos.d/nginx.repo
             ~ /.acme.sh/acme.sh --issue -d $DOMAIN --keylength ec-256 --pre-hook " nginx -s stop || { echo -n ''; } " --post-hook " nginx -c /www/server/nginx/conf/nginx.conf || { echo -n ''; } "   --standalone
         菲
         [[ -f  ~ /.acme.sh/ ${DOMAIN} _ecc/ca.cer ]] || {
-            colorEcho $RED  "获取证书失败，请复制上面的红色文字到 https://hijk.art 反馈"
+            colorEcho $RED  "获取证书失败，请复制上面的红色文字到  反馈"
             出口1
         }
         CERT_FILE = " /etc/v2ray/ ${DOMAIN} .pem "
@@ -562,7 +562,7 @@ module_hotfixes=true '  > /etc/yum.repos.d/nginx.repo
             --fullchain-file $CERT_FILE \
             --reloadcmd      "服务 nginx 强制重新加载"
         [[ -f  $CERT_FILE  &&  -f  $KEY_FILE ]] || {
-            colorEcho $RED  "获取证书失败，请到 https://hijk.art 反馈"
+            colorEcho $RED  "获取证书失败，请到  反馈"
             出口1
         }
     别的
