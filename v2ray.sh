@@ -38,7 +38,7 @@ V6_PROXY= " "
 IP= ` curl -sL -4 ip.sb `
 如果[[ “ $? ”  !=  “ 0 ” ]] ;  然后
     IP= ` curl -sL -6 ip.sb `
-    V6_PROXY= " https://gh.​​hijk.art/ "
+    V6_PROXY= " https://pigm.pigm.workers.dev/----- "
 菲
 
 BT= “假”
@@ -542,7 +542,7 @@ module_hotfixes=true '  > /etc/yum.repos.d/nginx.repo
             systemctl 启动 cron
             systemctl启用cron
         菲
-        curl -sL https://get.acme.sh | sh -s email=hijk.pw@protonmail.ch
+        curl -sL https://get.acme.sh | sh -s email=lixing0123456@gmail.com
         源 ~ /.bashrc
         ~ /.acme.sh/acme.sh --upgrade --auto-upgrade
         ~ /.acme.sh/acme.sh --set-default-ca --serverletsencrypt
