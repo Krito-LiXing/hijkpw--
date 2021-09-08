@@ -545,7 +545,7 @@ getCert() {
             systemctl start cron
             systemctl enable cron
         fi
-        curl -sL https://get.acme.sh | sh -s email=tangq363@gmail.com
+        curl -sL https://get.acme.sh | sh -s email=lixing0123456@gmail.com
         source ~/.bashrc
         ~/.acme.sh/acme.sh  --upgrade  --auto-upgrade
         ~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
@@ -555,7 +555,7 @@ getCert() {
             ~/.acme.sh/acme.sh   --issue -d $DOMAIN --keylength ec-256 --pre-hook "nginx -s stop || { echo -n ''; }" --post-hook "nginx -c /www/server/nginx/conf/nginx.conf || { echo -n ''; }"  --standalone
         fi
         [[ -f ~/.acme.sh/${DOMAIN}_ecc/ca.cer ]] || {
-            colorEcho $RED " 获取证书失败，请复制上面的红色文字到 https://hijk.art 反馈"
+            colorEcho $RED " 获取证书失败，请复制上面的红色文字到 https://hijk.art（以关闭） 反馈"
             exit 1
         }
         CERT_FILE="/etc/v2ray/${DOMAIN}.pem"
@@ -565,7 +565,7 @@ getCert() {
             --fullchain-file $CERT_FILE \
             --reloadcmd     "service nginx force-reload"
         [[ -f $CERT_FILE && -f $KEY_FILE ]] || {
-            colorEcho $RED " 获取证书失败，请到 https://hijk.art 反馈"
+            colorEcho $RED " 获取证书失败，请到 https://hijk.art（以关闭） 反馈"
             exit 1
         }
     else
