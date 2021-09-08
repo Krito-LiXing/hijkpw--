@@ -319,11 +319,11 @@ configSS(){
     mkdir -p /etc/${NAME}
     cat > $CONFIG_FILE<<-EOF
 {
-    "server":"$interface",
+    "server":["[::0]", "0.0.0.0"],
     "server_port":${PORT},
     "local_port":1080,
     "password":"${PASSWORD}",
-    "timeout":600,
+    "timeout":260,
     "method":"${METHOD}",
     "nameserver":"8.8.8.8",
     "mode":"tcp_and_udp",
