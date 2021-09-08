@@ -27,7 +27,9 @@
 [trojan-go一键脚本](https://v2raytech.com/trojan-go-one-click-script/)
 
 V2ray多合一脚本，支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+TCP+TLS等组合: </br>
-  bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ubuntu_install_v2ray.sh) </br>
+```
+bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ubuntu_install_v2ray.sh)
+```
 
 [Xray一键脚本](https://v2raytech.com/xray-one-click-script/)
 
@@ -51,7 +53,9 @@ chmod +x tcp.sh
 [ShadowsocksX-NG配置教程](https://v2raytech.com/shadowsocksx-ng-config-tutorial/)
 
 Shadowsocks/SS一键脚本 </br>
-  bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ss.sh) </br>
+```
+bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ss.sh)
+```
 
 ## SSR
 
@@ -64,8 +68,9 @@ Shadowsocks/SS一键脚本 </br>
 [SSR版ShadowsocksX-NG配置教程](https://v2raytech.com/ssr-shadowsocksx-ng-config-tutorial/)
 
 Shadowsocks/SSR一键脚本 </br>
-
-  bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ssr.sh) </br>
+```
+bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ssr.sh)
+```
 
 ## V2Ray
 
