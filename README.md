@@ -1,5 +1,7 @@
 本站所有文章和Github上所有脚本均可随意转载和修改使用，无任何约束，无需附上原文链接和本人名字
 
+铭记大佬--hijkpw 已于2021年09月01日退网
+
 ## 一键脚本
 
 [本站脚本资源汇总](https://v2raytech.com/script-collection/)
@@ -38,6 +40,10 @@ bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master
 wget -N --no-check-certificate "https://github.com/Krito-LiXIng/BBR/blob/c461bc9035ab0945c69fae2c5c8b3306b127d013/tcp.sh"
 chmod +x tcp.sh
 ./tcp.sh
+```
+逗比的TG代理脚本
+```
+wget -N --no-check-certificate https://github.com/Krito-LiXIng/doubi/blob/601555ecfef1d896e323564496b1e6e1f45aa03f/mtproxy.sh
 ```
 
 # 客户端配置教程
@@ -228,4 +234,4 @@ bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/s
 
 [Google Scholar/谷歌学术403: your client does not have permission to get URL或者we’re sorry的解决办法](https://v2raytech.com/google-scholar-403-error-solution/)
 
-铭记大佬--hijkpw 已于2021年09月01日退网
+
