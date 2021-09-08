@@ -32,6 +32,7 @@ V2ray多合一脚本，支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ubuntu_install_v2ray.sh)
 ```
+如果脚本发现未找到Dig命令，可能需要安装```yum install bind-utils```[centos系统]，或者```apt install dnsutils```[Debain系统]，安装完成再执行脚本
 
 [Xray一键脚本](https://v2raytech.com/xray-one-click-script/)
 
