@@ -1776,7 +1776,15 @@ showLog() {
 
 menu() {
     clear
-    
+    echo "#############################################################"
+    echo -e "#                   ${RED}v2ray一键安装脚本${PLAIN}                      #"
+    echo -e "# ${GREEN}作者${PLAIN}: 网络跳越(hijk)  已退出江湖                                    #"
+    echo -e "# ${GREEN}网址${PLAIN}:   已关闭                                  #"
+    echo -e "# ${GREEN}论坛${PLAIN}:     已关闭                               #"
+    echo -e "# ${GREEN}TG群${PLAIN}:     已关闭                           #"
+    echo -e "# ${GREEN}Youtube频道${PLAIN}:  #"
+    echo "#############################################################"
+
     echo -e "  ${GREEN}1.${PLAIN}   安装V2ray-VMESS"
     echo -e "  ${GREEN}2.${PLAIN}   安装V2ray-${BLUE}VMESS+mKCP${PLAIN}"
     echo -e "  ${GREEN}3.${PLAIN}   安装V2ray-VMESS+TCP+TLS"
