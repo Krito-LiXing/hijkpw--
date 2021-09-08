@@ -1,6 +1,6 @@
 #！/bin/bash
 # v2ray一键安装脚本
-#作者：hijk<已退出江湖>
+#作者：hijk<https://hijk.art>
 
 
 RED= " \033[31m "       #错误信息
@@ -1780,11 +1780,11 @@ bbr重新启动（）{
     清除
     echo  " ############################################# ############## "
     echo -e " #                    ${RED} v2ray一键安装脚本${PLAIN}                       # "
-    echo -e " # ${GREEN}作者${PLAIN} : 以关闭 # "
-    echo -e " # ${GREEN}网址${PLAIN} : 以关闭 # "
-    echo -e " # ${GREEN}论坛${PLAIN} : 以关闭 # "
-    echo -e " # ${GREEN} TG群${PLAIN} : 以注销 # "
-    echo -e " # ${GREEN} Youtube 频道${PLAIN} : 以注销 # "
+    echo -e " # ${GREEN}作者${PLAIN} : 网络跳越(hijk) # "
+    echo -e " # ${GREEN}网址${PLAIN} : https://hijk.art # "
+    echo -e " # ${GREEN}论坛${PLAIN} : https://hijk.club # "
+    echo -e " # ${GREEN} TG群${PLAIN} : https://t.me/hijkclub # "
+    echo -e " # ${GREEN} Youtube 频道${PLAIN} : https://youtube.com/channel/UCYTB--VsObzepVJtc9yvUxQ # "
     echo  " ############################################# ############## "
 
     echo -e "   ${GREEN} 1. ${PLAIN}   安装V2ray-VMESS "
