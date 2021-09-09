@@ -44,7 +44,7 @@ chmod +x tcp.sh
 ```
 逗比的TG代理脚本
 ```
-wget -N --no-check-certificate https://github.com/Krito-LiXIng/doubi/blob/601555ecfef1d896e323564496b1e6e1f45aa03f/mtproxy.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/Krito-LiXIng/MTProxy/master/mtproxy.sh
 ```
 
 # 客户端配置教程
