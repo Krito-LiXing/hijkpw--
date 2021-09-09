@@ -400,11 +400,11 @@ getData() {
         echo "   1) 静态网站(位于/usr/share/nginx/html)"
         echo "   2) 小说站(随机选择)"
         echo "   3) 必应站(https://www.bing.com)"
-        echo "   4) 必应网站(https://www.bing.com)"
+        echo "   4) 自建反代站(https://lixing.cf)"
         echo "   5) 自定义反代站点(需以http或者https开头)"
-        read -p "  请选择伪装网站类型[默认:高清壁纸站]" answer
+        read -p "  请选择伪装网站类型[默认:自建反代站]" answer
         if [[ -z "$answer" ]]; then
-            PROXY_URL="https://www.bing.com"
+            PROXY_URL="https://lixing.cf"
         else
             case $answer in
             1)
