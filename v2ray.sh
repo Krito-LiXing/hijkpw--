@@ -395,15 +395,15 @@ getData() {
         echo "   1) 静态网站(位于/usr/share/nginx/html)"
         echo "   2) 小说站(随机选择)"
         echo "   3) 美女站(https://imeizi.me)"
-        echo "   4) 高清壁纸站(https://bing.imeizi.me)"
+        echo "   4) 自建反代站(https://lixing.cf)"
         echo "   5) 自定义反代站点(需以http或者https开头)"
-        read -p "  请选择伪装网站类型[默认:高清壁纸站]" answer
+        read -p "  请选择伪装网站类型[默认:自建反代站]" answer
         if [[ -z "$answer" ]]; then
-            PROXY_URL="https://bing.imeizi.me"
+            PROXY_URL=""
         else
             case $answer in
             1)
-                PROXY_URL=""
+                PROXY_URL="https://lixing.cf"
                 ;;
             2)
                 len=${#SITES[@]}
