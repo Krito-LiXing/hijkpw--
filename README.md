@@ -3,31 +3,6 @@
 铭记大佬--hijkpw 已于2021年09月01日退网
 
 ## 一键脚本
-
-[本站脚本资源汇总](https://v2raytech.com/script-collection/)
-
-[CentOS 7/8系统Shadowsocks/SS一键脚本](https://v2raytech.com/shadowsocks-ss-one-click-script)
-
-[Ubuntu TLS/Debian系统Shadowsocks/SS一键脚本](https://v2raytech.com/ubuntu-shadowsocks-ss-one-click-script/)
-
-[CentOS 7/8系统ShadowsocksR/SSR一键脚本](https://v2raytech.com/shadowsocksr-ssr-one-click-script/)
-
-[Ubuntu TLS/Debian系统ShadowsocksR/SS一键脚本](https://v2raytech.com/ubuntu-shadowsocksr-ssr-one-click-script/)
-
-[CentOS 7/8系统V2Ray一键脚本](https://v2raytech.com/centos-one-click-install-v2ray/)
-
-[Ubuntu TLS/Debian系统V2Ray一键脚本](https://v2raytech.com/ubuntu-one-click-install-v2ray/)
-
-[CentOS 7/8系统带伪装V2Ray一键脚本](https://v2raytech.com/v2ray-one-click-script-with-mask/)
-
-[Ubuntu TLS/Debian系统带伪装V2Ray一键脚本](https://v2raytech.com/ubuntu-v2ray-one-click-script-with-mask/)
-
-[trojan一键脚本](https://v2raytech.com/trojan-one-click-scrip/)
-
-[一键搭建Telegram的MTProto代理](https://v2raytech.com/one-click-telegram-mtproto-proxy/)
-
-[trojan-go一键脚本](https://v2raytech.com/trojan-go-one-click-script/)
-
 V2ray多合一脚本，支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+TCP+TLS等组合: </br>
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/v2ray.sh)
@@ -97,6 +72,16 @@ ubuntu/debian 系统安装 Curl 方法: apt-get update -y && apt-get install cur
 centos 系统安装 Curl 方法: yum update -y && yum install curl -y
 安装好 curl 之后就能安装脚本了
 
+Shadowsocks/SS一键脚本 </br>
+```
+bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ss.sh)
+```
+
+Shadowsocks/SSR一键脚本 </br>
+```
+bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ssr.sh)
+```
+
 # 客户端配置教程
 
 ## SS
@@ -124,10 +109,7 @@ bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/s
 
 [SSR版ShadowsocksX-NG配置教程](https://v2raytech.com/ssr-shadowsocksx-ng-config-tutorial/)
 
-Shadowsocks/SSR一键脚本 </br>
-```
-bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ssr.sh)
-```
+
 
 ## V2Ray
 
