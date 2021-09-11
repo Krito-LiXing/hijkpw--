@@ -43,8 +43,54 @@ chmod +x tcp.sh
 ./tcp.sh
 ```
 TG代理脚本
+```bash
+mkdir /home/mtproxy && cd /home/mtproxy
+
+curl -s -o mtproxy.sh https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/mtproxy.sh
+## 使用
+
+运行服务
+
+```bash
+bash mtproxy.sh start
+```
+调试运行
+
+```bash
+bash mtproxy.sh debug
+```
+
+停止服务
+
+```bash
+bash mtproxy.sh stop
+```
+
+重启服务
+
+```bash
+bash mtproxy.sh restart
+```
+
+
+
+## 卸载安装
+
+因为是绿色版卸载极其简单，直接删除所在目录即可。
+
+```bash
+rm -rf /home/mtproxy
+```
+
+## 开机启动
+
+开机启动脚本，如果你的rc.local文件不存在请检查开机自启服务。
+
+通过编辑文件`vi /etc/rc.local`再按i进行编辑将如下代码加入到开机自启脚本中，修改完毕后，先按ESC进入底线命令模式，之后输入 :wq，再回车即可保存修改并退出
+
+```bash
+bash /home/mtproxy/mtproxy.sh start > /dev/null 2>&1 &
 ```
 
 # 客户端配置教程
