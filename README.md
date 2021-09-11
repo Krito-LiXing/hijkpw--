@@ -11,13 +11,13 @@ bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master
 
 [Xray一键脚本](https://v2raytech.com/xray-one-click-script/)
 
-魔改BBR加速脚本
+## 魔改BBR加速脚本
 ```
 wget -N --no-check-certificate "https://raw.githubusercontent.com/Krito-LiXIng/BBR/master/tcp.sh"
 chmod +x tcp.sh
 ./tcp.sh
 ```
-TG代理脚本
+## TG代理脚本
 ```bash
 mkdir /home/mtproxy && cd /home/mtproxy
 
@@ -72,12 +72,12 @@ ubuntu/debian 系统安装 Curl 方法: apt-get update -y && apt-get install cur
 centos 系统安装 Curl 方法: yum update -y && yum install curl -y
 安装好 curl 之后就能安装脚本了
 
-Shadowsocks/SS一键脚本 </br>
+## Shadowsocks/SS一键脚本 </br>
 ```
 bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ss.sh)
 ```
 
-Shadowsocks/SSR一键脚本 </br>
+## Shadowsocks/SSR一键脚本 </br>
 ```
 bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ssr.sh)
 ```
