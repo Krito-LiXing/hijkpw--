@@ -42,9 +42,9 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/Krito-LiXIng/B
 chmod +x tcp.sh
 ./tcp.sh
 ```
-逗比的TG代理脚本
+TG代理脚本
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/Krito-LiXIng/MTProxy/master/mtproxy.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/mtproxy.sh
 ```
 
 # 客户端配置教程
