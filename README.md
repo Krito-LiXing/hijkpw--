@@ -13,7 +13,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master
 
 ## 魔改BBR加速脚本
 ```
-wget -N --no-check-certificate "https://raw.githubusercontent.com/Krito-LiXIng/BBR/master/tcp.sh"
+wget -N --no-check-certificate "https://raw.githubusercontent.com/Krito-LiXIng/Linux-NetSpeed/master/tcp.sh"
 chmod +x tcp.sh
 ./tcp.sh
 ```
