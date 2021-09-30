@@ -394,7 +394,7 @@ getData() {
         colorEcho $BLUE " 请选择伪装站类型:"
         echo "   1) 静态网站(位于/usr/share/nginx/html)"
         echo "   2) 小说站(随机选择)"
-        echo "   3) 尤果网美女(https://m.ugirls.fm)"
+        echo "   3) 尤果网美女(https://www.ugirl.com/meinvtupian)"
         echo "   4) 自建反代站(https://lixing.cf)"
         echo "   5) 自定义反代站点(需以http或者https开头)"
         read -p "  请选择伪装网站类型[默认:自建反代站]" answer
@@ -422,7 +422,7 @@ getData() {
                 done
                 ;;
             3)
-                PROXY_URL="https://m.ugirls.fm"
+                PROXY_URL="https://www.ugirl.com/meinvtupian"
                 ;;
             4)
                 PROXY_URL="https://lixing.cf"
