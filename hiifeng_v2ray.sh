@@ -429,11 +429,11 @@ getData() {
         echo "   1) 静态网站(位于/usr/share/nginx/html)"
         echo "   2) 小说站(随机选择)"
         echo "   3) 美女站(http://www.kimiss.com)"
-        echo "   4) 高清壁纸站(https://www.wallpaperstock.net)"
+        echo "   4) 微软bing站(https://www.bing.com)"
         echo "   5) 自定义反代站点(需以http或者https开头)"
         read -p "  请选择伪装网站类型[默认:高清壁纸站]" answer
         if [[ -z "$answer" ]]; then
-            PROXY_URL="https://www.wallpaperstock.net"
+            PROXY_URL="https://www.bing.com"
         else
             case $answer in
             1)
@@ -459,7 +459,7 @@ getData() {
                 PROXY_URL="http://www.kimiss.com"
                 ;;
             4)
-                PROXY_URL="https://www.wallpaperstock.net"
+                PROXY_URL="https://www.bing.com"
                 ;;
             5)
                 read -p " 请输入反代站点(以http或者https开头)：" PROXY_URL
@@ -1832,9 +1832,6 @@ menu() {
     echo "#############################################################"
     echo -e "#                   ${RED}v2ray一键安装脚本${PLAIN}                       #"
     echo -e "# ${GREEN}作者${PLAIN}: 网络跳越(hijk)                                      #"
-    echo -e "# ${GREEN}维护${PLAIN}: ifeng                                               #"
-    echo -e "# ${GREEN}网址${PLAIN}: https://www.hicairo.com                             #"
-    echo -e "# ${GREEN}TG群${PLAIN}: https://t.me/HiaiFeng                               #"
     echo -e "#                                                           #"
     echo -e "#  向${GREEN}网络跳越${PLAIN}致敬！！！                                     #"
     echo -e "#  该脚本原作者为${GREEN}网络跳越${PLAIN}，好像已经停止维护。该脚本默认     #"	
