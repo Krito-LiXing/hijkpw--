@@ -29,6 +29,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master
 [Xray一键脚本](https://v2raytech.com/xray-one-click-script/)
 
 如果脚本未找到Dig命令，可能需要安装
+
 [ centos系统]
 ``` 
 yum install bind-utils
