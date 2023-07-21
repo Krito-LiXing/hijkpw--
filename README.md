@@ -2,6 +2,22 @@
 
 铭记大佬--hijkpw 已于2021年09月01日退网
 
+## 谷歌云Google Cloud Platform开启SSH访问及设置root访问密码
+
+使用root用户登录，使用sudo -i切换登录身份
+
+设置root密码，使用passwd命令设置root密码
+
+修改SSH配置文件
+```
+vim /etc/ssh/sshd_config
+```
+找到以下内容并修改；
+PermitRootLogin yes //默认为no，需要开启root用户访问改为yes
+PasswordAuthentication yes //默认为no，改为yes开启密码登陆
+
+修改完成之后重启
+
 ## 一键脚本
 V2ray多合一脚本，支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+TCP+TLS等组合: </br>
 ```
