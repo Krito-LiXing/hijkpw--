@@ -28,6 +28,17 @@ bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master
 ```
 [Xray一键脚本](https://v2raytech.com/xray-one-click-script/)
 
+如果脚本未找到Dig命令，可能需要安装
+[ centos系统]
+``` 
+yum install bind-utils
+```
+[ Debain系统]
+``` 
+apt install dnsutils
+ ``` 
+安装完成再执行脚本
+[ Xray 一键脚本] ( https://v2raytech.com/xray-one-click-script/ )
 ## 魔改BBR加速脚本
 ```
 wget -N --no-check-certificate "https://raw.githubusercontent.com/Krito-LiXIng/Linux-NetSpeed/master/tcp.sh"
