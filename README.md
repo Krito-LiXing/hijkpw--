@@ -26,8 +26,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/hiifeng_v2ray.sh)
 ```
-[Xray一键脚本](https://v2raytech.com/xray-one-click-script/)
-
 如果脚本未找到Dig命令，可能需要安装
 
 [ centos系统]
@@ -39,6 +37,7 @@ yum install bind-utils
 apt install dnsutils
  ``` 
 安装完成再执行脚本
+[Xray一键脚本](https://v2raytech.com/xray-one-click-script/)
 [ Xray 一键脚本] ( https://v2raytech.com/xray-one-click-script/ )
 ## 魔改BBR加速脚本
 ```
