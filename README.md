@@ -21,10 +21,10 @@ PasswordAuthentication yes //默认为no，改为yes开启密码登陆
 ## 一键脚本
 V2ray多合一脚本，支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+TCP+TLS等组合: </br>
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/v2ray.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXing/hijkpw--/master/v2ray.sh)
 ```
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/hiifeng_v2ray.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXing/hijkpw--/master/hiifeng_v2ray.sh)
 ```
 如果脚本未找到Dig命令，可能需要安装
 
@@ -41,7 +41,7 @@ apt install dnsutils
 [ Xray 一键脚本] ( https://v2raytech.com/xray-one-click-script/ )
 ## 魔改BBR加速脚本
 ```
-wget -N --no-check-certificate "https://raw.githubusercontent.com/Krito-LiXIng/Linux-NetSpeed/master/tcp.sh"
+wget -N --no-check-certificate "https://raw.githubusercontent.com/Krito-LiXing/Linux-NetSpeed/master/tcp.sh"
 chmod +x tcp.sh
 ./tcp.sh
 ```
@@ -49,7 +49,7 @@ chmod +x tcp.sh
 ```bash
 mkdir /home/mtproxy && cd /home/mtproxy
 
-curl -s -o mtproxy.sh https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+curl -s -o mtproxy.sh https://raw.githubusercontent.com/Krito-LiXing/hijkpw--/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 ```
 ## 使用
 
@@ -102,12 +102,12 @@ centos 系统安装 Curl 方法: yum update -y && yum install curl -y
 
 ## Shadowsocks/SS一键脚本 </br>
 ```
-bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ss.sh)
+bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXing/hijkpw--/master/ss.sh)
 ```
 
 ## Shadowsocks/SSR一键脚本 </br>
 ```
-bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ssr.sh)
+bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXing/hijkpw--/master/ssr.sh)
 ```
 
 # 客户端配置教程
@@ -124,7 +124,7 @@ bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/s
 
 Shadowsocks/SS一键脚本 </br>
 ```
-bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/ss.sh)
+bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXing/hijkpw--/master/ss.sh)
 ```
 
 ## SSR
@@ -294,5 +294,3 @@ bash <(curl -sL https://raw.githubusercontent.com/Krito-LiXIng/hijkpw--/master/s
 [WordPress插件推荐及性能优化建议](https://v2raytech.com/wordpress-plugin-recommand-and-mentions/)
 
 [Google Scholar/谷歌学术403: your client does not have permission to get URL或者we’re sorry的解决办法](https://v2raytech.com/google-scholar-403-error-solution/)
-
-
